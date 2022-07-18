@@ -1,0 +1,33 @@
+body {
+    font-size: xx-large;
+    display: flex;
+    height: 100vh;
+
+}
+
+form {
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    text-align: center;
+}
+
+output {
+    display: block;
+    border: 1px solid #000;
+    /* width: 100px;
+    height: 20px; */
+}
+
+form>* {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    font-size: inherit;
+}
+
+input {
+    font-size: inherit;
+}
